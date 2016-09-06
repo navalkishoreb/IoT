@@ -1,0 +1,20 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/bsl_LoadingLayout"
+    android:orientation="vertical"
+    tools:context="com.talentica.blescanlib.feasibility.CheckingFeasibility"
+    >
+
+  <TextView
+      android:id="@+id/bsl_loading_text"
+      style="@style/bsl_LoadingMessage"
+      tools:text="@string/bsl_checking_feasibility"
+      />
+
+  <ProgressBar
+      android:id="@+id/bsl_progressBar"
+      style="@style/bsl_HorizontalProgressBar.Indeterminate"
+      />
+
+</LinearLayout>

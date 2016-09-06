@@ -1,0 +1,22 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <TextView
+      android:id="@+id/bsl_search_action_message"
+      style="@style/bsl_ActionMessage"
+      android:text="@string/bsl_search_find_nearby_devices"
+      />
+
+
+  <android.support.design.widget.FloatingActionButton
+      android:id="@+id/bsl_fab"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom|end"
+      android:layout_margin="@dimen/fab_margin"
+      android:src="@android:drawable/ic_menu_search"
+      />
+</android.support.design.widget.CoordinatorLayout>

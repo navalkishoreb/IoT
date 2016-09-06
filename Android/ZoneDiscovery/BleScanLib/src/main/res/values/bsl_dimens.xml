@@ -1,0 +1,25 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+
+  <dimen name="bsl__2dp">2dp</dimen>
+  <dimen name="bsl__4dp">4dp</dimen>
+  <dimen name="bsl__12dp">12dp</dimen>
+  <dimen name="bsl__16dp">16dp</dimen>
+  <dimen name="bsl__20dp">20dp</dimen>
+  <dimen name="bsl__40dp">40dp</dimen>
+  <dimen name="bsl__90dp">90dp</dimen>
+
+
+  <dimen name="bsl__12sp">12sp</dimen>
+  <dimen name="bsl__14sp">14sp</dimen>
+  <dimen name="bsl__18sp">18sp</dimen>
+  <dimen name="bsl__30sp">30sp</dimen>
+  <dimen name="bsl__32sp">32sp</dimen>
+
+
+  <dimen name="bsl__n7dp">-7dp</dimen>
+  <dimen name="bsl__n40dp">-40dp</dimen>
+
+  <dimen name="fab_margin">@dimen/bsl__16dp</dimen>
+
+</resources>

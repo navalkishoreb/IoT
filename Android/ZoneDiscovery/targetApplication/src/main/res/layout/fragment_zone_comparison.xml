@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bsl_DeviceSummaryLayout"
+    android:layout_height="match_parent"
+    >
+
+
+  <TextView
+      android:id="@+id/zone_label"
+      style="@style/bsl_DeviceSummaryName"
+      android:text="@string/zone_current_label"
+      />
+
+  <TextSwitcher
+      android:background="@drawable/bsl_action_message_border"
+      android:id="@+id/zone_device_name"
+      android:layout_height="wrap_content"
+      android:minHeight="@dimen/__120dp"
+      android:layout_width="match_parent"
+      android:layout_below="@id/zone_label"
+      />
+
+  <ListView
+      android:layout_below="@id/zone_device_name"
+      android:id="@+id/list_ble_devices"
+      android:layout_width="match_parent"
+      android:dividerHeight="2dp"
+      android:layout_marginTop="4dp"
+      android:divider="@null"
+      android:layout_height="match_parent"
+      />
+
+</RelativeLayout>

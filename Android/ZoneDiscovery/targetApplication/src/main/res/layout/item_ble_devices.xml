@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="4dp"
+                android:background="#8800ddff"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/item_ble_devices_rssi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="?android:colorAccent"
+        android:padding="20dp"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        tools:text="-70"/>
+
+    <TextView
+        android:id="@+id/item_ble_devices_device_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/item_ble_devices_rssi"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="checking"/>
+
+    <TextView
+        android:id="@+id/item_ble_devices_device_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_ble_devices_device_name"
+        android:layout_toLeftOf="@id/item_ble_devices_rssi"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@color/bsl_text_color"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        tools:text="checking"/>
+
+    <TextView
+        android:id="@+id/item_ble_devices_bond_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_ble_devices_device_address"
+        android:layout_toLeftOf="@id/item_ble_devices_rssi"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@color/bsl_text_color"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        tools:text="checking"/>
+
+    <TextView
+        android:id="@+id/item_ble_devices_device_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_ble_devices_bond_state"
+        android:layout_toLeftOf="@id/item_ble_devices_rssi"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@color/bsl_text_color"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        tools:text="checking"/>
+
+    <TextView
+        android:id="@+id/item_ble_devices_tx_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_ble_devices_device_type"
+        android:layout_toLeftOf="@id/item_ble_devices_rssi"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@color/bsl_text_color"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        tools:text="checking"/>
+
+</RelativeLayout>
