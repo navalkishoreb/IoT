@@ -1,5 +1,0 @@
-D:\IoT\ProximityEvents\Cypress PSoC\BLE_Proximity02\BLE_Proximity01.cydsn\BLE_Proximity01.cyprj|93fcb328-7f99-445b-9304-ec45ec9f3e08
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|6920bd6d-7305-4308-8065-d66909cb3fee
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|d2813d31-f891-4c93-ad54-b50e60327eb8
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|1099b513-161b-4645-ba12-3f3a2efa3e50
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|a8b3566b-8926-4711-b1cd-8d73d78750cd

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_color_led"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.talentica.bleswitch.functionality.ColorLed">
+
+
+    <View
+        android:id="@+id/color_plate"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="@dimen/__40dp"
+        android:background="@color/text_color"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/ProgressBar"/>
+
+    <TextView
+        android:id="@+id/label_red"
+        style="@style/ColorLabelText"
+        android:layout_below="@id/color_plate"
+        android:text="R"/>
+
+    <TextView
+        android:id="@+id/color_value_red"
+        style="@style/ColorValueText"
+        android:layout_below="@id/color_plate"
+        tools:text="255"/>
+
+
+    <TextView
+        android:id="@+id/label_green"
+        style="@style/ColorLabelText"
+        android:layout_below="@id/color_value_red"
+        android:text="G"/>
+
+    <TextView
+        android:id="@+id/color_value_green"
+        style="@style/ColorValueText"
+        android:layout_below="@id/color_value_red"
+        tools:text="255"/>
+
+
+    <TextView
+        android:id="@+id/label_blue"
+        style="@style/ColorLabelText"
+        android:layout_below="@id/color_value_green"
+        android:text="B"/>
+
+    <TextView
+        android:id="@+id/color_value_blue"
+        style="@style/ColorValueText"
+        android:layout_below="@id/color_value_green"
+        tools:text="255"/>
+
+
+    <SeekBar
+        android:id="@+id/seek_bar_red"
+        style="@style/ColorSeekBar"
+        android:layout_alignBottom="@id/color_value_red"
+        android:layout_alignTop="@id/color_value_red"
+        android:layout_toLeftOf="@id/color_value_red"/>
+
+    <SeekBar
+        android:id="@+id/seek_bar_green"
+        style="@style/ColorSeekBar"
+        android:layout_alignBottom="@id/color_value_green"
+        android:layout_alignTop="@id/color_value_green"
+        android:layout_toLeftOf="@id/color_value_green"
+        />
+
+    <SeekBar
+        android:id="@+id/seek_bar_blue"
+        style="@style/ColorSeekBar"
+        android:layout_alignBottom="@id/color_value_blue"
+        android:layout_alignTop="@id/color_value_blue"
+        android:layout_toLeftOf="@id/color_value_blue"
+        />
+
+
+</RelativeLayout>

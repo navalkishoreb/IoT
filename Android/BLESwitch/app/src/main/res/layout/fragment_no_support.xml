@@ -1,0 +1,8 @@
+<TextView
+    android:id="@+id/no_support_message"
+    style="@style/ActionMessage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.talentica.bleswitch.feasibility.NoSupport"
+    tools:text="@string/error_feasibility_below_lollipop"/>
+

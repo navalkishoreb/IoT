@@ -27,6 +27,7 @@ public class Scan implements Scanner {
 	public Scan(ScanningView scanningView) {
 		this.scanningView = scanningView;
 		bluetoothAdapter = getBluetoothAdapter();
+		bluetoothAdapter.cancelDiscovery();
 		bluetoothScanner = new BLEScanner(this.scanningView.getScannerCallback());
 	}
 

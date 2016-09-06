@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/DeviceSummaryLayout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:id="@+id/item_ble_devices_rssi"
+        style="@style/DeviceSummaryRssi"
+        tools:text="-70"/>
+
+    <TextView
+        android:id="@+id/item_ble_devices_device_name"
+        style="@style/DeviceSummaryName"
+        android:layout_toLeftOf="@id/item_ble_devices_rssi"
+        tools:text="checking"/>
+
+    <TextView
+        android:id="@+id/item_ble_devices_device_address"
+        style="@style/DeviceSummaryText"
+        android:layout_below="@id/item_ble_devices_device_name"
+        android:layout_toLeftOf="@id/item_ble_devices_rssi"
+        tools:text="checking"/>
+
+    <TextView
+        android:id="@+id/item_ble_devices_bond_state"
+        style="@style/DeviceSummaryText"
+        android:layout_below="@id/item_ble_devices_device_address"
+        android:layout_toLeftOf="@id/item_ble_devices_rssi"
+        tools:text="checking"/>
+
+    <TextView
+        android:id="@+id/item_ble_devices_device_type"
+        style="@style/DeviceSummaryText"
+        android:layout_below="@id/item_ble_devices_bond_state"
+        android:layout_toLeftOf="@id/item_ble_devices_rssi"
+        tools:text="checking"/>
+
+    <TextView
+        android:id="@+id/item_ble_devices_tx_level"
+        style="@style/DeviceSummaryText"
+        android:layout_below="@id/item_ble_devices_device_type"
+        android:layout_toLeftOf="@id/item_ble_devices_rssi"
+        tools:text="checking"/>
+
+    <Button
+        android:id="@+id/item_ble_devices_connect_gatt"
+        style="@style/DeviceSummaryButton"
+        android:layout_below="@id/item_ble_devices_tx_level"
+        android:text="@string/connect_gatt"/>
+
+</RelativeLayout>

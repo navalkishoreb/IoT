@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BLE Switch</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tag_fragment_search" type="id">Scan</string>
+    <string name="tag_fragment_error">Error</string>
+    <string name="tag_fragment_device_listing">Devices</string>
+    <string name="search_find_nearby_devices">Click search icon to find nearby smart bluetooth devices</string>
+    <string name="error_feasibility_below_lollipop">This application works in Lollipop and above.\n\nYour device is currently running on %1$s</string>
+    <string name="error_feasibility_no_bluetooth">There is no bluetooth hardware available in your device.</string>
+    <string name="error_feasibility_no_smart_bluetooth">This application requires smart bluetooth to function. </string>
+    <string name="checking_feasibility">Checking Feasibility&#8230;</string>
+    <string name="tag_fragment_check_feasibility">Check Feasibility</string>
+    <string name="error_unknown">Unknown Error</string>
+    <string name="tag_fragment_no_support">No Support</string>
+    <string name="scanning_devices">Scanning for BLE devices&#8230;</string>
+    <string name="attempting_connection">Attempting to connect any profile&#8230;</string>
+    <string name="tag_fragment_scanning_devices">Scanning Devices</string>
+    <string name="enable">Enable</string>
+    <string name="scanning_stopped">Scanning Stopped&#8230;</string>
+    <string name="tag_fragment_device_summary">Device Summary</string>
+    <string name="connect_gatt">Connect</string>
+</resources>
